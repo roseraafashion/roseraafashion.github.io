@@ -1,0 +1,22 @@
+body{
+margin:0px;
+padding:0px;
+background-color: pink;
+background-size:cover;
+}
+.hem{
+height:20%;
+width:100%;
+margin:auto;
+margin-top:1%;
+margin-left:7px%;
+padding:5px;
+}
+.d{
+	width:100%;
+	height:15%;
+	margin-top:30%;
+	padding-bottom:1%;
+	background-color:black;
+	float:left;
+}
