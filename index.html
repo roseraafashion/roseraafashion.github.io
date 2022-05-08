@@ -13,6 +13,20 @@
 		margin-top:5%;
 		float:left;
 		}
+		.blink{
+        	animation: blink-animation 1s steps(5, start) infinite;
+        	-webkit-animation: blink-animation 1s steps(5, start) infinite;
+       		 }
+       		 @keyframes blink-animation{
+        	to{
+        		visibility: hidden;
+        		}
+      		  }
+      		  @-webkit-keyframes blink-animation{
+        	to{
+        		visibility: hidden;
+        		}
+       		 }	
 	</style>
 </head>
 <body style="background-color: lightblue;">
@@ -36,7 +50,7 @@
 <br>
 </div>
 <div class="ya">
-<h2><center><b><font face="Arno Pro Smbd Display" font color="blue">APA AJA SIH YANG ADA DI ROSERAA STORE??</h2></center></b></font>
+<h2><center><b><font face="Arno Pro Smbd Display" font color="blue"><span class="blink">APA AJA SIH YANG ADA DI ROSERAA STORE??</span></h2></center></b></font>
 <p><h4><center><font face="Arno Pro Smbd Display">Hallo agan dan sista ingin beli cosmetik dengan harga terjangkau?atau bingung cari fashion atau baju lebaran? Silahkan datang ke toko<br>
 ROSERAA FASHION Store menjual berbagai macam fashion, Aneka hijab, Cosmetik<br> Dengan harga terjangkau yang pasti nya lebih murah <br>Ayo buruan beli produk kami karna yang lain <font color="blue">belum tentu berkhualitas</font>. Dan dapatkan diskon 50% untuk setiap pembelian produk kecantikan kami.<br> Setelah berbelanja dan memakai produk kami, jangan lupa memberikan testimoni.<br> Karena Kepuasan anda menjadi kebanggan kami!!;)
 <br>
